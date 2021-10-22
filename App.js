@@ -9,6 +9,8 @@ import {
 } from "react-native";
 import CoinItem from "./components/CoinItem";
 
+
+/* APP REACT NATIVE  */
 const App = () => {
   const [coins, setCoins] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
